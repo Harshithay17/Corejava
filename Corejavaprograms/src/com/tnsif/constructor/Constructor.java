@@ -6,7 +6,7 @@ class Employee {
 	
 	// default constructor
 	Employee() {
-		name = "Unkown";
+		name = "Harshitha";
 		salary=45000;
 		
 	}
