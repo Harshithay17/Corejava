@@ -13,7 +13,7 @@ public class Main {
 		String Age = sc.nextLine();
 		
 		System.out.println("Enter your salary:");
-		double salary = sc.nextLine();
+		double salary = sc.nextInt();
 		
 		System.out.println("Name"+ name);
 		System.out.println("Age"+ Age);
