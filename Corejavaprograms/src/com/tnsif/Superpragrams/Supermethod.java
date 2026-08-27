@@ -1,5 +1,5 @@
 package com.tnsif.Superpragrams;
-class Employee{
+class Supermethod{
 	void calculatePerformance() {
 		System.out.println("Calculating employee performance");
 	}
