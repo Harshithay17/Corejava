@@ -1,11 +1,11 @@
 package com.tnsif.Superpragrams;
-class Supermethod{
+class Supermethod1{
 	void calculatePerformance() {
 		System.out.println("Calculating employee performance");
 	}
 }
 
-class Senioremployee extends Employee {
+class SeniorEmploye extends Employee {
 	void  calculatePerformance() {
 		super.calculatePerformance();
 		System.out.println("calculating leaderdship performance");
@@ -20,7 +20,7 @@ class Senioremployee extends Employee {
 
 public class Supermethod {
 	public static void main(String[] args) {
-		Senioremployee s1 = new Senioremployee();
+		Senioremploye s1 = new Senioremploye();
 		s1.calculatePerformance();
 	}
 
