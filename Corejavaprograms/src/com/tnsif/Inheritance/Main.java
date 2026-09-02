@@ -19,7 +19,7 @@ class minicar extends Car{
 		System.out.println("good speed");
 	}
 }
-public class Main {
+public class Main{
 public static void main(String[] args) {
 	minicar m = new minicar();
 	m.speed();
